@@ -1,7 +1,7 @@
 print('\t\t\t\tKV MALKAPURAM')
 print('\t\t\t\t==============\n')
 print('\t\t\t\t     Allumni Record')
-print('\t\t\t\t     ==============\n')
+print('\t\t\t\t     ==========\n')
 
 
 print("ALLUMNI RECORD\n")
@@ -120,7 +120,12 @@ def delete():
         else:
             print("program terminated")
     else:
-        print("The provided roll number doesn't exist\nTRYAGAIN")
+        print("The provided roll number doesn't exist")
+        z=input("print 0 to continue...any other key to exit:")
+        if z=="0":
+            show()
+        else:
+            print("===============end==================")
         
 
 def bs():
@@ -229,7 +234,7 @@ def show():
             excel()
         else:
             print("invalid input")
-            start()
+            show()
     
 def start():
     x=(input("Enter admin password to for verification:"))     #Admin pass:123
