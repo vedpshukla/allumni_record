@@ -4,7 +4,7 @@ CREATE TABLE F(ROLL INT,NAME CHAR(30),TOTAL INT,BATCH CHAR(10),PERCENTAGE FLOAT)
 
 
 
-
+#use relative path instead of actual path in codes here forth
 that's all for  sql...
 
 change the path in excel.py and roll_nos accordingly when copying or changing file location
