@@ -1,9 +1,14 @@
-CREATE DATABASE ALLUMNI_RECORD;
-CREATE TABLE STUDENTS(ROLL INT,NAME CHAR(30),TOTAL INT,PERCENTAGE FLOAT,BATCH CHAR(10));
-CREATE TABLE M(ROLL INT,NAME CHAR(30),TOTAL INT,BATCH CHAR(10),PERCENTAGE FLOAT);
-CREATE TABLE F(ROLL INT,NAME CHAR(30),TOTAL INT,BATCH CHAR(10),PERCENTAGE FLOAT);
-
-#use relative path instead of actual path in codes here forth
+TO START:
+download mysql if you already don't have.
+install mysql.connector,
+create database allumni_record;
+create table students(roll int,name char(30),total int,percentage float,batch char(10));
+create table m(roll int,name char(30),total int,batch char(10),percentage float);
+create table f(roll int,name char(30),total int,batch char(10),percentage float);
 that's all for  sql...
+------------------------
+run allumni_record.py
+run the item 7 from the main menu
 
-change the path in excel.py and roll_nos accordingly when copying or changing file location
+
+
