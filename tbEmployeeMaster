@@ -1,0 +1,55 @@
+CREATE TABLE tbEmployeeMaster
+(
+                EmployeeId                       INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+                EmployeeName                  NVARCHAR(50),
+                Gender                                NVARCHAR(10),
+                Department                         NVARCHAR(50)
+)
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Arjun','Male','Administration');
+
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Rohan','Male','Sales');
+
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Ishita',NULL,'HRM');
+
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Aadi','Male','Sales')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Preetam','Male','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Anjan','Male','Administration')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Rajesh',NULL,'HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Ankur','Male','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Robin','Male',NULL)
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Mayank','Male','Sales')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Manisha','Female','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Sonam','Female','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Rajan','Male','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Kapil',NULL,'Sales')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Ritika','Female','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Akshay','Male','Finance')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Aryan','Male','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Anju','Female','Finance')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Sapna','Female','Finance')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Ruhi','Female',NULL)
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Robin','Male','Sales')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Neelam','Female','HRM')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Rajni','Female','Administration')
+;
+INSERT INTO tbEmployeeMaster(EmployeeName,Gender,Department) VALUES ('Sonakshi','Female','Finance');
