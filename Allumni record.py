@@ -1,5 +1,5 @@
-print('\t\t\t\tKV MALKAPURAM')
-print('\t\t\t\t==============\n')
+print('\t\t\t\t<INSTITUTE NAME>')
+print('\t\t\t\t================\n')
 print('\t\t\t\t     Allumni Record')
 print('\t\t\t\t     ==========\n')
 
